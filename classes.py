@@ -1,3 +1,8 @@
+'''
+Basic structures to keep track of things that might be found in the zine collection.
+Initially: Album, Band, Zine, Interview, (record) Label, (music) Festival
+
+'''
 class RefItem(object):
 
 	def __init__(self, reftype, refname, refby, refbypage, refbyissue):
